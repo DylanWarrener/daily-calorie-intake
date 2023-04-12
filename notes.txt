@@ -1,0 +1,33 @@
+# Daily calories based on weight, height, age & activity level
+    # Activity level modifiers
+        - Little to no exercise = 1.2
+        - Slightly active = 1.37
+        - Moderately active = 1.55
+        - Very active = 1.725
+        - Extremely active = 1.9
+
+    # Formula for Men
+        (66 + (6.2 * weight) + (12.7 * height) - (6.76 * age)) * Activity level
+
+    # Formula for Women 
+        (655.1 + (4.35 * weight) + (4.7 * height) - (4.7 * age)) * Activity level
+
+# Macronutrients (foods required in large)
+    # Example of calories: 2848
+
+    // total_calories * percentage
+    # Daily Carbs (45-55%)         #Me: 50%
+        # Calories: 1,424
+        # Grams: 356g
+
+    // Calories / (4 * (grams_of_protein_per_kg_of_weight * ((body_fat_percentage * weight_in_kg) - weight_in_kg)))
+    # Daily Protein (10-35%)       #Me: 20%
+        # Calories: 563.2
+        # Grams: 140.8g
+
+    // daily_calories - (daily_carbs + daily_protein)
+    # Daily Fats (20-35%)          #Me: 30%
+        # Calories: 860.8
+        # Grams: 96g
+            # of which are saturated (<=15% or <=14g)
+            # of which are monounsaturated or polyunsaturated (85%)
