@@ -15,19 +15,51 @@
 # Macronutrients (foods required in large)
     # Example of calories: 2848
 
-    // total_calories * percentage
-    # Daily Carbs (45-55%)         #Me: 50%
+    # Daily Carbs (45-55%)
         # Calories: 1,424
         # Grams: 356g
 
-    // Calories / (4 * (grams_of_protein_per_kg_of_weight * ((body_fat_percentage * weight_in_kg) - weight_in_kg)))
-    # Daily Protein (10-35%)       #Me: 20%
+    # Daily Protein (10-35%)   
         # Calories: 563.2
         # Grams: 140.8g
 
-    // daily_calories - (daily_carbs + daily_protein)
-    # Daily Fats (20-35%)          #Me: 30%
+    # Daily Fats (20-35%)          
         # Calories: 860.8
         # Grams: 96g
             # of which are saturated (<=15% or <=14g)
             # of which are monounsaturated or polyunsaturated (85%)
+
+Getting the right amount of protein per day depends on three types of training. 
+
+Plan: 
+    1. Begin with the recomp phase to build muscle and lose fat at the same time.
+    2. Once you have the muscle and the desired fat, change to bulking phase. 
+    3. Finally, to reduce fat further change to cutting phase to get a defined physique.
+
+    #Cutting (increase protein): fewer calories from food, so less body fat. Much more likely to break down muscle tissue as a fuel source.
+        #Between 1.8 - 2.7g per kg of bodyweight
+        #Between 0.8 - 1.2g per lb of bodyweight
+            1. 1.8 
+            2. 2.0
+            3. 2.2
+            4. 2.3
+            5. 2.5
+            6. 2.7
+    #Bulking (less protein): build a lot of muscle and bulk. Well fed, so your body is less likely to break down muscle tissue as a fuel source.
+        #Between 1.6 - 2.2g per kg of bodyweight
+        #Between 0.7 - 1.0g per lb of bodyweight
+            1. 1.6 
+            2. 1.7
+            3. 1.8
+            4. 2.0
+            5. 2.1
+            6. 2.2
+    #Recomp (): build muscle and lose fat at the same time. 
+        #Between 1.6 - 2.2g per kg of bodyweight
+        #Between 0.7 - 1.0g per lb of bodyweight
+            1. 1.6 
+            2. 1.7
+            3. 1.8
+            4. 2.0
+            5. 2.1
+            6. 2.2
