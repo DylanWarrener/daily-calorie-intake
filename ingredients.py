@@ -21,8 +21,12 @@ class Ingredients:
                     "wheatFlour",
                     "proteinPowder",
                     "oats",
+                    "whitePotatoes",
+                    "sweetPotatoes",
+                    "ketchup"
                 ],
                 "fridge": [
+                    "lettuce",
                     "fetaCheese",
                     "goatsCheese"
                     "stemmedBroccoli",
@@ -44,9 +48,12 @@ class Ingredients:
                     "fineBeans",
                     "leek",
                     "radishes",
-                    "tofu"
+                    "tofu",
+                    "redCabbage",
+                    "lightCreamCheese"
                 ],
                 "freezer": [
+                    "chickenDrumsticks",
                     "soybean",
                     "chicken",
                     "kingPrawns",
@@ -58,6 +65,7 @@ class Ingredients:
                     "mangoAndPineapple", 
                     "summerFruits", 
                     "blueberries",
+                    "mince"
                 ]
             },
             "cup": {
@@ -74,6 +82,11 @@ class Ingredients:
             },
             "tsp": {
                 "dry": [
+                    "chilliFlakes",
+                    "garlicPaste"
+                    "garlicPowder"
+                    "onionPowder"
+                    "oregano",
                     "cinnamon",
                     "turmeric",
                     "ginger",
@@ -118,6 +131,7 @@ class Ingredients:
             },
             "tbsp": {
                 "dry": [
+                    "sriracha",
                     "cidarVinegar",
                     "oliveOil",
                     "sesameOil",
@@ -138,6 +152,7 @@ class Ingredients:
                     "frenchDressing",
                     "cranberrySauce",
                     "sundriedTomatoPuree",
+                    "coleslaw"
                 ],
                 "freezer": []
             },
@@ -157,6 +172,9 @@ class Ingredients:
             },
             "whole": {
                 "dry": [
+                    "whiteWraps",
+                    "brownWraps",
+                    "lebaneseBread",
                     "mackerel",
                     "chickenStock",
                     "wholegrainRiceWithQuinoa",
@@ -181,6 +199,7 @@ class Ingredients:
                     "sweetPotato",
                 ],
                 "fridge": [
+                    "mozzarella",
                     "gherkins",
                     "lemon",
                     "cucumber",
