@@ -3,7 +3,7 @@ class Recipies:
         self.recipes = {
             "breakfast": {
                 "greenMilkSummerFruitsAndBananaSmoothie": {
-                    "summerFruitsAndBanana": 125,
+                    "summerFruitsAndBanana": 120,
                     "oats": 100,
                     "greenMilk": 250,
                     "honey": 3,
@@ -11,7 +11,7 @@ class Recipies:
                     "proteinPowder": 50,
                 },
                 "greenMilkBlackForestFruitsSmoothie": {
-                    "blackForestFruits": 125,
+                    "blackForestFruits": 120,
                     "oats": 100,
                     "greenMilk": 250,
                     "honey": 3,
@@ -19,7 +19,7 @@ class Recipies:
                     "proteinPowder": 50,
                 },
                 "greenMilkMangoAndPineapppleSmoothie": {
-                    "mangoAndPineapple": 125,
+                    "mangoAndPineapple": 120,
                     "oats": 100,
                     "greenMilk": 250,
                     "honey": 3,
@@ -27,7 +27,7 @@ class Recipies:
                     "proteinPowder": 50,
                 },
                 "greenMilkSummerFruitsSmoothie": {
-                    "summerFruits": 125,
+                    "summerFruits": 120,
                     "oats": 100,
                     "greenMilk": 250,
                     "honey": 3,
@@ -35,7 +35,7 @@ class Recipies:
                     "proteinPowder": 50,
                 },
                 "greenMilkBlueberriesSmoothie": {
-                    "blueberries": 125,
+                    "blueberries": 120,
                     "oats": 100,
                     "greenMilk": 250,
                     "honey": 3,
@@ -145,17 +145,6 @@ class Recipies:
                     "lime": 1,
                     "springOnion": 2,
                     "noodles": 1
-                },
-                "quinoaSaladWithHalloumi": {
-                    "bulgarWheat": 20,
-                    "cherryTomatoes": 3,
-                    "parsley": 1,
-                    "quinoa": 0.25,
-                    "lemon": 1,
-                    "oliveOil": 1,
-                    "springOnion": 2,
-                    "halloumi": 30,
-                    "courgette": 0.5
                 },
                 "tunaButterBeanPie": {
                     "babyPotato": 100,
@@ -287,7 +276,42 @@ class Recipies:
                     "parsley": 1,
                     "mackerel": 1,
                     "lemon": 0.5
-                }
+                },
+                "beefKebab": {
+                    "mince": 200,
+                    "cumin": 1,
+                    "oregano": 1,
+                    "onionPowder": 1,
+                    "garlicPowder": 1,
+                    "corriander": 1,
+                    "fatFreeGreekYoghurt": 100,
+                    "mint": 1,
+                    "garlicPaste": 1,
+                    "lebaneseBread": 1,
+                    "redCabbage": 50,
+                    "lettuce": 50,
+                    "redOnion": 0.5,
+                    "cherryTomatoes": 3,
+                    "cucumber": 0.25
+                },
+                "roastedButternutSquashCurry": {
+                    "butternutSquash": 1,
+                    "coconutOil": 2,
+                    "redOnion": 1,
+                    "garlic": 4,
+                    "ginger": 4,
+                    "curryPowder": 3,
+                    "garamMasala": 0.5,
+                    "cumin": 0.5,
+                    "cuminSeeds": 0.5,
+                    "turmeric": 0.25,
+                    "chilliPowder": 0.25,
+                    "choppedTomatoes": 400,
+                    "coconutMilk": 400,
+                    "vegetableStock": 2,
+                    "chickpeas": 400,
+                    "rice": 1
+                },
             }, 
             "dinner": {
                 "sausageAndEggOpenPancake": {
@@ -423,24 +447,38 @@ class Recipies:
                     "sesameSeeds": 1,
                     "noodles": 1
                 },
-                "roastedButternutSquashCurry": {
-                    "butternutSquash": 1,
-                    "coconutOil": 2,
-                    "redOnion": 1,
-                    "garlic": 4,
-                    "ginger": 4,
-                    "curryPowder": 3,
-                    "garamMasala": 0.5,
-                    "cumin": 0.5,
-                    "cuminSeeds": 0.5,
-                    "turmeric": 0.25,
-                    "chilliPowder": 0.25,
-                    "choppedTomatoes": 400,
-                    "coconutMilk": 400,
-                    "vegetableStock": 2,
-                    "chickpeas": 400,
-                    "rice": 1
+                "quinoaSaladWithHalloumi": {
+                    "bulgarWheat": 20,
+                    "cherryTomatoes": 3,
+                    "parsley": 1,
+                    "quinoa": 0.25,
+                    "lemon": 1,
+                    "oliveOil": 1,
+                    "springOnion": 2,
+                    "halloumi": 30,
+                    "courgette": 0.5
                 },
+                "barbecueStyleChickenDrumsticks": {
+                    "whitePotatoes": 500,
+                    "vegetableOil": 1,
+                    "chickenDrumsticks": 500,
+                    "ketchup": 50,
+                    "soySauce": 1,
+                    "honey": 2,
+                    "coleslaw": 2
+                },
+                "spicyCreamy": {
+                    "brownWraps": 1,
+                    "lettuce": 50,
+                    "mozzarella": 1,
+                    "eggs": 3,
+                    "lightCreamCheese": 80,
+                    "sriracha": 1,
+                    "redOnion": 0.5,
+                    "parsley": 3,
+                    "sundriedTomatoes": 15,
+                    "chilliFlakes": 1
+                }
             }
         }
     
