@@ -2,10 +2,40 @@ import person as p
 import ingredients as i
 import recipes as r
 
-# Work out how many calories to eat of what Macronutrient
-dylan = p.Person("male", 78, 5.7, 26, 1.37, 0.15)
+# The entry point for running the program
+def main():
+    formulas = [ "Harris-Benedict" ]
+    user_input = 0
 
-print(dylan.daily_calorie_intake)
+    # Ask the user what they want to do 
+    #  1. Work out daily calorie intake
+    #  2. Work out daily required ingredient
+    print("Please choose one of the options listed:")
+
+    for formula in formulas:
+        print("1. ")
+
+    # 
+    # Create person object to store
+    dylan = p.Person("male", 78, 5.7, 26, 1.37, 0.15, "")
+
+    print(f"Your daily calorie intake is: {round(dylan.daily_calorie_intake)}")
+    print("---------------------------------------------------------------")
+    dylan.getDailyMacronutrientPercentage()
+    print("---------------------------------------------------------------")
+    dylan.getDailyMacronutrientCalorieIntake()
+    print("---------------------------------------------------------------")
+    dylan.getDailyMacronutrientGramsIntake()
+    print("---------------------------------------------------------------")
+    dylan.getDailyMacronutrientForMealTimeInGrams()
+    print("---------------------------------------------------------------")
+
+#main()
+
+# Temp entry point
+dylan = p.Person("male", 78, 5.7, 26, 1.37, 0.15, "")
+
+print(f"Your daily calorie intake is: {round(dylan.daily_calorie_intake)}")
 print("---------------------------------------------------------------")
 dylan.getDailyMacronutrientPercentage()
 print("---------------------------------------------------------------")
@@ -25,22 +55,22 @@ week_1_recipes = {
     "monday": {
         "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkSummerFruitsAndBananaSmoothie"),
         "lunch": dylanRecipes.getRecipe("lunch", "honeyAndMustardWithEggs"), 
-        "dinner": dylanRecipes.getRecipe("dinner", "sausageAndEggOpenPancake")
+        "dinner": dylanRecipes.getRecipe("dinner", "barbecueStyleChickenDrumsticks")
     },
     "tuesday": {
         "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkBlackForestFruitsSmoothie"),
-        "lunch": dylanRecipes.getRecipe("lunch", "soyBeanChilliGingerStirFry"), 
+        "lunch": dylanRecipes.getRecipe("lunch", "roastedButternutSquashCurry"), 
         "dinner": dylanRecipes.getRecipe("dinner", "loadedSweetPotatoeSkin")
     },
     "wednesday": {
         "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkMangoAndPineapppleSmoothie"),
-        "lunch": dylanRecipes.getRecipe("lunch", "creamySpinachChicken"), 
-        "dinner": {}
+        "lunch": dylanRecipes.getRecipe("lunch", "beefKebab"), 
+        "dinner": dylanRecipes.getRecipe("dinner", "spicyCreamy")
     },
     "thursday": {
         "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkSummerFruitsSmoothie"),
-        "lunch": dylanRecipes.getRecipe("lunch", "quinoaSaladWithHalloumi"), 
-        "dinner": dylanRecipes.getRecipe("dinner", "roastedButternutSquashCurry")
+        "lunch": dylanRecipes.getRecipe("lunch", "soyBeanChilliGingerStirFry"), 
+        "dinner": dylanRecipes.getRecipe("dinner", "quinoaSaladWithHalloumi")
     },
     "friday": {
         "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkBlueberriesSmoothie"),
