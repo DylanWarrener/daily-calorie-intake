@@ -1,5 +1,5 @@
 class Person:
-    def __init__(self, gender, weight_in_kg, height_in_feet, age, exercise_level, target_fat_percentage) -> None:      
+    def __init__(self, gender, weight_in_kg, height_in_feet, age, exercise_level, target_fat_percentage, method) -> None:      
         # Person variables
         self.gender = gender
         self.weight_in_kg = weight_in_kg
@@ -9,6 +9,7 @@ class Person:
         self.age = age
         self.exercise_level = exercise_level
         self.target_fat_percentage = target_fat_percentage
+        self.method = method
         self.daily_calorie_intake = 0
         
         ## Carbs
