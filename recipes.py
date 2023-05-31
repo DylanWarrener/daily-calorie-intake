@@ -55,19 +55,6 @@ class Recipies:
                     "oliveOil": 0.5,
                     "mackerel": 1
                 },
-                "soyBeanChilliGingerStirFry": {
-                    "redChillies": 0.5,
-                    "ginger": 1,
-                    "garlic": 1,
-                    "cidarVinegar": 1,
-                    "sesameOil": 1,
-                    "redOnion": 0.5,
-                    "redPepper": 0.5,
-                    "soybean": 60,
-                    "beanSprouts": 100,
-                    "honey": 1,
-                    "soySauce": 1
-                },
                 "creamySpinachChicken": {
                     "sundriedTomatoes": 25,
                     "chicken": 150,
@@ -90,18 +77,6 @@ class Recipies:
                     "fetaCheese": 50,
                     "cucumber": 0.25,
                     "parsley": 1
-                },
-                "honeyAndMustardWithEggs": {
-                    "honey": 2,
-                    "frenchMustard": 1,
-                    "salmonFillet": 1,
-                    "fineBeans": 100, 
-                    "rice": 0.5,
-                    "quinoa": 0.5,
-                    "eggs": 2,
-                    "lemon": 1,
-                    "springOnion": 2,
-                    "redChillies": 1
                 },
                 "tandooriPrawnNaans": {
                     "curryPowder": 1,
@@ -312,8 +287,51 @@ class Recipies:
                     "chickpeas": 400,
                     "rice": 1
                 },
+                "quinoaSaladWithHalloumi": {
+                    "bulgarWheat": 20,
+                    "cherryTomatoes": 3,
+                    "parsley": 1,
+                    "quinoa": 0.25,
+                    "lemon": 1,
+                    "oliveOil": 1,
+                    "springOnion": 2,
+                    "halloumi": 30,
+                    "courgette": 0.5
+                },
+                "loadedSweetPotatoeSkin": {
+                    "sweetPotato": 1,
+                    "tacoMixedBeansInTomatoSauce": 1,
+                    "springOnion": 2,
+                    "manchego": 37.5,
+                    "cherryTomatoes": 3
+                },
             }, 
             "dinner": {
+                "honeyAndMustardWithEggs": {
+                    "honey": 2,
+                    "frenchMustard": 1,
+                    "salmonFillet": 1,
+                    "fineBeans": 100, 
+                    "rice": 0.5,
+                    "quinoa": 0.5,
+                    "eggs": 2,
+                    "lemon": 1,
+                    "springOnion": 2,
+                    "redChillies": 1
+                },
+                "soyBeanChilliGingerStirFry": {
+                    "redChillies": 0.5,
+                    "ginger": 1,
+                    "garlic": 1,
+                    "cidarVinegar": 1,
+                    "sesameOil": 1,
+                    "redOnion": 0.5,
+                    "redPepper": 0.5,
+                    "soybean": 60,
+                    "beanSprouts": 100,
+                    "honey": 1,
+                    "soySauce": 1
+                },
                 "sausageAndEggOpenPancake": {
                     "sausages": 4,
                     "plainFlour": 2,
@@ -325,13 +343,6 @@ class Recipies:
                     "redPepper": 0.5,
                     "cucumber": 0.25,
                     "frenchDressing": 0.5
-                },
-                "loadedSweetPotatoeSkin": {
-                    "sweetPotato": 1,
-                    "tacoMixedBeansInTomatoSauce": 1,
-                    "springOnion": 2,
-                    "manchego": 37.5,
-                    "cherryTomatoes": 3
                 },
                 "peaAndTurkeySoup": {
                     "oliveOil": 0.5,
@@ -447,17 +458,6 @@ class Recipies:
                     "sesameSeeds": 1,
                     "noodles": 1
                 },
-                "quinoaSaladWithHalloumi": {
-                    "bulgarWheat": 20,
-                    "cherryTomatoes": 3,
-                    "parsley": 1,
-                    "quinoa": 0.25,
-                    "lemon": 1,
-                    "oliveOil": 1,
-                    "springOnion": 2,
-                    "halloumi": 30,
-                    "courgette": 0.5
-                },
                 "barbecueStyleChickenDrumsticks": {
                     "whitePotatoes": 500,
                     "vegetableOil": 1,
@@ -467,8 +467,8 @@ class Recipies:
                     "honey": 2,
                     "coleslaw": 2
                 },
-                "spicyCreamy": {
-                    "brownWraps": 1,
+                "spicyCreamyWrap": {
+                    "brownWraps": 2,
                     "lettuce": 50,
                     "mozzarella": 1,
                     "eggs": 3,
@@ -478,6 +478,14 @@ class Recipies:
                     "parsley": 3,
                     "sundriedTomatoes": 15,
                     "chilliFlakes": 1
+                },
+                "bbqStyleChickenDrumsticks": {
+                    "whitePotatoes": 400,
+                    "vegetableOil": 1,
+                    "chickenDrumsticks": 500,
+                    "ketchup": 50,
+                    "soySauce": 1,
+                    "honey": 3
                 }
             }
         }
