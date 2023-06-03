@@ -53,11 +53,10 @@ class Ingredients:
                     "lightCreamCheese"
                 ],
                 "freezer": [
-                    "chickenDrumsticks",
                     "soybean",
                     "chicken",
                     "kingPrawns",
-                    "carrot",
+                    "carrots",
                     "peas",
                     "mixedVegetables",
                     "summerFruitsAndBanana", 
@@ -82,15 +81,18 @@ class Ingredients:
             },
             "tsp": {
                 "dry": [
+                    "mixedHerbSeasoning",
+                    "rosemarySeasoning",
+                    "chipSeasoning",
                     "chilliFlakes",
-                    "garlicPaste"
-                    "garlicPowder"
                     "onionPowder"
                     "oregano",
                     "cinnamon",
                     "turmeric",
                     "ginger",
-                    "garlic",
+                    "garlicPowderSeasoning",
+                    "garlicGranulesSeasoning",
+                    "garlicPaste",
                     "honey",
                     "cornflour",
                     "parsley",
@@ -99,6 +101,7 @@ class Ingredients:
                     "granulatedSugar",
                     "cuminSeeds",
                     "cumin",
+                    "kebabSeasoning",
                     "chilliPowder",
                     "corriander",
                     "mixedSpice",
@@ -220,9 +223,10 @@ class Ingredients:
                     "redOnion",
                     "whiteOnion",
                     "courgette",
+                    "naanBread",
                 ],
                 "freezer": [
-                    "naanBread",
+                    "chickenDrumsticks",
                     "sirloinSteak",
                     "codFillets",
                     "troutFillets",
