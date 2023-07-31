@@ -54,27 +54,27 @@ dylanIngredients = i.Ingredients()
 week_1_recipes = {
     "monday": {
         "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkSummerFruitsAndBananaSmoothie"),
-        "lunch": dylanRecipes.getRecipe("lunch", "quinoaSaladWithHalloumi"), 
+        "lunch": {}, 
         "dinner": dylanRecipes.getRecipe("dinner", "honeyAndMustardWithEggs")
     },
     "tuesday": {
         "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkBlackForestFruitsSmoothie"),
-        "lunch": dylanRecipes.getRecipe("lunch", "loadedSweetPotatoeSkin"), 
+        "lunch": {}, 
         "dinner": dylanRecipes.getRecipe("dinner", "soyBeanChilliGingerStirFry")
     },
     "wednesday": {
         "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkMangoAndPineapppleSmoothie"),
-        "lunch": dylanRecipes.getRecipe("lunch", "beefKebab"), 
+        "lunch": {}, 
         "dinner": dylanRecipes.getRecipe("dinner", "bbqStyleChickenDrumsticks")
     },
     "thursday": {
         "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkSummerFruitsSmoothie"),
-        "lunch": dylanRecipes.getRecipe("lunch", "roastedButternutSquashCurry"), 
+        "lunch": {}, 
         "dinner": dylanRecipes.getRecipe("dinner", "spicyCreamyWrap")
     },
     "friday": {
         "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkBlueberriesSmoothie"),
-        "lunch": dylanRecipes.getRecipe("lunch", "pepperedMackerelSpaghetti"), 
+        "lunch": {}, 
         "dinner": {}
     }
 }
