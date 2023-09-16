@@ -54,7 +54,7 @@ dylanIngredients = i.Ingredients()
 week_1_recipes = {
     "monday": {
         "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkSummerFruitsAndBananaSmoothie"),
-        "lunch": {}, 
+        "lunch": dylanRecipes.getRecipe("lunch", "quinoaSaladWithHalloumi"), 
         "dinner": dylanRecipes.getRecipe("dinner", "honeyAndMustardWithEggs")
     },
     "tuesday": {
@@ -69,7 +69,7 @@ week_1_recipes = {
     },
     "thursday": {
         "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkSummerFruitsSmoothie"),
-        "lunch": {}, 
+        "lunch": dylanRecipes.getRecipe("lunch", "roastedButternutSquashCurry"), 
         "dinner": dylanRecipes.getRecipe("dinner", "spicyCreamyWrap")
     },
     "friday": {
