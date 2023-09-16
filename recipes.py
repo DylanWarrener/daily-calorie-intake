@@ -58,18 +58,6 @@ class Recipies:
                     "granulatedSugar": 0.5,
                     "garlicPowderSeasoning": 0.5
                 },
-                "spicyCreamyWrap": {
-                    "brownWraps": 2,
-                    "lettuce": 50,
-                    "mozzarella": 1,
-                    "eggs": 3,
-                    "lightCreamCheese": 80,
-                    "sriracha": 1,
-                    "redOnion": 0.5,
-                    "parsley": 3,
-                    "sundriedTomatoes": 15,
-                    "chilliFlakes": 1
-                },
                 "mackerelSaladWithBabyPotatoes": {
                     "babyPotato": 150,
                     "souredCream": 40,
@@ -313,6 +301,84 @@ class Recipies:
                 },
             }, 
             "dinner": {
+                "creamyFishPie": {
+                    "whitePotatoes": 500,
+                    "whiteOnion": 0.5,
+                    "lightCreamCheese": 125,
+                    "fishPieMix": 160,
+                    "prawns": 95,
+                    "parsley": 3,
+                    "oliveOil": 0.5,
+                    "vegetableStock": 2,
+                    "cornflour": 2,
+                    "greenMilk": 50
+                },
+                "chickenTacoRecipe": {
+                    "chickenBreast": 200,
+                    "lemon": 0.5,
+                    "fatFreeGreekYoghurt": 200,
+                    "cajun": 0.5,
+                    "redOnion": 0.5,
+                    "redWineVinegar": 1.5,
+                    "granulatedSugar": 0.5,
+                    "oliveOil": 1,
+                    "redPepper": 1.5,
+                    "garlicClove": 1,
+                    "lettuce": 0.5,
+                    "redChillies": 0.5,
+                    "tacos": 1
+                },
+                "indianLoadedSweetPotatoe": {
+                    "sweetPotato": 2,
+                    "vegetableOil": 0.5,
+                    "whiteOnion": 1,
+                    "curryPowder": 1,
+                    "carrot": 1,
+                    "redPepper": 0.5,
+                    "rice": 50,
+                    "chickpeas": 200,
+                    "vegetableStock": 2,
+                    "springOnion": 1,
+                    "fatFreeGreekYoghurt": 2
+                },
+                "sirlionSteakWithBlueCheese": {
+                    "sirlionSteak": 2,
+                    "oliveOil": 2,
+                    "thymeSprigs": 2,
+                    "garlicClove": 1,
+                    "streakyBacon": 2,
+                    "babySprouts": 180,
+                    "cranberries": 50,
+                    "balsamicVinegar": 1,
+                    "packMashedPotato": 1,
+                    "greenMilk": 5,
+                    "horseradishSauce": 1,
+                    "stilton": 50
+                },
+                "salmonAndLeekPastaBake": {
+                    "penne": 175,
+                    "oliveOil": 0.5,
+                    "leek": 125,
+                    "garlicClove": 2,
+                    "lightCreamCheese": 50,
+                    "greenMilk": 50,
+                    "frozenPeas": 125,
+                    "salmonFillet": 2,
+                    "parsley": 2,
+                    "matureCheese": 50
+                },
+                "spicyCreamyWrap": {
+                    "brownWraps": 2,
+                    "lettuce": 50,
+                    "mozzarella": 1,
+                    "eggs": 3,
+                    "lightCreamCheese": 80,
+                    "sriracha": 1,
+                    "redOnion": 0.5,
+                    "parsley": 3,
+                    "sundriedTomatoes": 15,
+                    "chilliFlakes": 1
+                },
                 "roastedButternutSquashCurry": {
                     "butternutSquash": 1,
                     "coconutOil": 2,
@@ -494,6 +560,33 @@ class Recipies:
                     "redOnion": 0.5,
                     "garlicSeasoning": 1,
                     "mixedHerbSeasoning": 1
+                },
+                "partialHomeMadePizzaDylanDani": {
+                    "pizzaTomatoSauce": 1,
+                    "pizzaBBQSauce": 1,
+                    "mozzerella": 1,
+                    "redLeicester": 1,
+                    "ham": 1,
+                    "redPepper": 1,
+                    "sweetCorn": 1,
+                    "chickenReadyToEat": 2,
+                    "mushrooms": 1,
+                    "redOnion": 1
+                },
+                "tescoCottagePie": {
+                    "oliveOil": 1,
+                    "whiteOnion": 1,
+                    "carrots": 2,
+                    "celeryStalk": 1,
+                    "garlicClove": 1,
+                    "mince": 500,
+                    "tomatoPuree": 1,
+                    "choppedTomatoes": 1,
+                    "beefStockCube": 2,
+                    "bayLeaf": 1,
+                    "pees": 100,
+                    "whitePotatoes": 1000,
+                    "unsaltedButter": 50
                 }
             }
         }

@@ -53,29 +53,29 @@ dylanIngredients = i.Ingredients()
 # Get recipies for week 
 week_1_recipes = {
     "monday": {
-        "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkSummerFruitsAndBananaSmoothie"),
-        "lunch": dylanRecipes.getRecipe("lunch", "quinoaSaladWithHalloumi"), 
-        "dinner": dylanRecipes.getRecipe("dinner", "honeyAndMustardWithEggs")
+        "breakfast": {},
+        "lunch": {}, 
+        "dinner": dylanRecipes.getRecipe("dinner", "salmonAndLeekPastaBake")
     },
     "tuesday": {
-        "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkBlackForestFruitsSmoothie"),
+        "breakfast": {},
         "lunch": {}, 
-        "dinner": dylanRecipes.getRecipe("dinner", "soyBeanChilliGingerStirFry")
+        "dinner": dylanRecipes.getRecipe("dinner", "chickenTacoRecipe")
     },
     "wednesday": {
-        "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkMangoAndPineapppleSmoothie"),
+        "breakfast": {},
         "lunch": {}, 
-        "dinner": dylanRecipes.getRecipe("dinner", "bbqStyleChickenDrumsticks")
+        "dinner": dylanRecipes.getRecipe("dinner", "tescoCottagePie")
     },
     "thursday": {
-        "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkSummerFruitsSmoothie"),
-        "lunch": dylanRecipes.getRecipe("lunch", "roastedButternutSquashCurry"), 
-        "dinner": dylanRecipes.getRecipe("dinner", "spicyCreamyWrap")
+        "breakfast": {},
+        "lunch": {}, 
+        "dinner": dylanRecipes.getRecipe("dinner", "sirlionSteakWithBlueCheese")
     },
     "friday": {
-        "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkBlueberriesSmoothie"),
+        "breakfast": {},
         "lunch": {}, 
-        "dinner": {}
+        "dinner": dylanRecipes.getRecipe("dinner", "partialHomeMadePizzaDylanDani")
     }
 }
 

@@ -26,6 +26,9 @@ class Ingredients:
                     "ketchup"
                 ],
                 "fridge": [
+                    "matureCheese",
+                    "stilton",
+                    "cranberries",
                     "lettuce",
                     "fetaCheese",
                     "goatsCheese"
@@ -37,7 +40,6 @@ class Ingredients:
                     "springGreens",
                     "whiteBread",
                     "cheese",
-                    "ham",
                     "turkeyHam",
                     "turkey",
                     "sugarsnapPeas",
@@ -50,13 +52,15 @@ class Ingredients:
                     "radishes",
                     "tofu",
                     "redCabbage",
-                    "lightCreamCheese"
+                    "lightCreamCheese",
+                    "fishPieMix"
                 ],
                 "freezer": [
+                    "pees",
                     "soybean",
                     "chicken",
+                    "prawns",
                     "kingPrawns",
-                    "carrots",
                     "peas",
                     "mixedVegetables",
                     "summerFruitsAndBanana", 
@@ -64,7 +68,8 @@ class Ingredients:
                     "mangoAndPineapple", 
                     "summerFruits", 
                     "blueberries",
-                    "mince"
+                    "mince",
+                    "chickenBreast"
                 ]
             },
             "cup": {
@@ -134,6 +139,8 @@ class Ingredients:
             },
             "tbsp": {
                 "dry": [
+                    "balsamicVinegar",
+                    "cajun",
                     "sriracha",
                     "cidarVinegar",
                     "oliveOil",
@@ -152,6 +159,7 @@ class Ingredients:
                     "grapeseedOil"
                 ],
                 "fridge": [
+                    "horseradishSauce",
                     "frenchDressing",
                     "cranberrySauce",
                     "sundriedTomatoPuree",
@@ -160,11 +168,12 @@ class Ingredients:
                 "freezer": []
             },
             "ml": {
-                "dry": [],
+                "dry": [
+                    "redWineVinegar"
+                ],
                 "fridge": [
                     "souredCream",
                     "singleCream",
-                    "choppedTomatoes",
                     "coconutMilk",
                     "cremeFraiche",
                     "greenMilk",
@@ -175,6 +184,11 @@ class Ingredients:
             },
             "whole": {
                 "dry": [
+                    "tacos",
+                    "bayLeaf",
+                    "beefStockCube",
+                    "choppedTomatoes",
+                    "packMashedPotato",
                     "whiteWraps",
                     "brownWraps",
                     "lebaneseBread",
@@ -197,11 +211,26 @@ class Ingredients:
                     "bayLeaves",
                     "starAnise",
                     "yeast",
+                    "pizzaTomatoSauce",
+                    "pizzaBBQSauce",
                     "tacoMixedBeansInTomatoSauce",
                     "noodles",
                     "sweetPotato",
+                    "sweetCorn",
                 ],
                 "fridge": [
+                    "celeryStalk",
+                    "carrots",
+                    "mushrooms",
+                    "chickenReadyToEat",
+                    "ham",
+                    "redLeicester",
+                    "mozzerella",
+                    "babySprouts",
+                    "streakyBacon",
+                    "sirlionSteak",
+                    "carrot"
+                    "garlicClove"
                     "mozzarella",
                     "gherkins",
                     "lemon",
@@ -214,6 +243,7 @@ class Ingredients:
                     "pakChoi",
                     "celeryStick",
                     "romaineLettuce",
+                    "lettuce",
                     "celeriac",
                     "parsnips",
                     "beefTomato",
