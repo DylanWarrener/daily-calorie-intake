@@ -33,18 +33,18 @@ def main():
 #main()
 
 # Temp entry point
-dylan = p.Person("male", 78, 5.7, 26, 1.37, 0.15, "")
+#dylan = p.Person("male", 78, 5.7, 26, 1.37, 0.15, "")
 
-print(f"Your daily calorie intake is: {round(dylan.daily_calorie_intake)}")
-print("---------------------------------------------------------------")
-dylan.getDailyMacronutrientPercentage()
-print("---------------------------------------------------------------")
-dylan.getDailyMacronutrientCalorieIntake()
-print("---------------------------------------------------------------")
-dylan.getDailyMacronutrientGramsIntake()
-print("---------------------------------------------------------------")
-dylan.getDailyMacronutrientForMealTimeInGrams()
-print("---------------------------------------------------------------")
+#print(f"Your daily calorie intake is: {round(dylan.daily_calorie_intake)}")
+#print("---------------------------------------------------------------")
+#dylan.getDailyMacronutrientPercentage()
+#print("---------------------------------------------------------------")
+#dylan.getDailyMacronutrientCalorieIntake()
+#print("---------------------------------------------------------------")
+#dylan.getDailyMacronutrientGramsIntake()
+#print("---------------------------------------------------------------")
+#dylan.getDailyMacronutrientForMealTimeInGrams()
+#print("---------------------------------------------------------------")
 
 # Work out what ingredients are needed for my food schedule
 dylanRecipes = r.Recipies()
@@ -53,27 +53,28 @@ dylanIngredients = i.Ingredients()
 # Get recipies for week 
 week_1_recipes = {
     "monday": {
-        "breakfast": {},
+        "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkSummerFruitsAndBananaSmoothie"),
         "lunch": {}, 
-        "dinner": dylanRecipes.getRecipe("dinner", "salmonAndLeekPastaBake")
+        "dinner": dylanRecipes.getRecipe("dinner", "sausageAndMash")
     },
     "tuesday": {
-        "breakfast": {},
+        "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkBlackForestFruitsSmoothie"),
         "lunch": {}, 
         "dinner": dylanRecipes.getRecipe("dinner", "chickenTacoRecipe")
     },
+    # At Sue's & Dean's for dinner or frozen pizza
     "wednesday": {
-        "breakfast": {},
+        "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkMangoAndPineapppleSmoothie"),
         "lunch": {}, 
-        "dinner": dylanRecipes.getRecipe("dinner", "tescoCottagePie")
+        "dinner": {}
     },
     "thursday": {
-        "breakfast": {},
+        "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkSummerFruitsSmoothie"),
         "lunch": {}, 
         "dinner": dylanRecipes.getRecipe("dinner", "sirlionSteakWithBlueCheese")
     },
     "friday": {
-        "breakfast": {},
+        "breakfast": dylanRecipes.getRecipe("breakfast", "greenMilkBlueberriesSmoothie"),
         "lunch": {}, 
         "dinner": dylanRecipes.getRecipe("dinner", "partialHomeMadePizzaDylanDani")
     }

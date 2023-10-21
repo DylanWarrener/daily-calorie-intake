@@ -587,6 +587,22 @@ class Recipies:
                     "pees": 100,
                     "whitePotatoes": 1000,
                     "unsaltedButter": 50
+                },
+                "sausageAndMash": {
+                    "whitePotatoes": 500,
+                    "sausages": 4,
+                    "oliveOil": 2,
+                    "garlicClove": 2,
+                    "rosemary": 5,
+                    "redOnion": 1,
+                    "djonMustard": 1,
+                    "balsamicVinegar": 1,
+                    "leaPerins": 1,
+                    "beefStockCube": 2,
+                    "whiteSugar": 1,
+                    "butter": 1,
+                    "unsaltedButter": 15,
+                    "chives": 5
                 }
             }
         }

@@ -53,7 +53,9 @@ class Ingredients:
                     "tofu",
                     "redCabbage",
                     "lightCreamCheese",
-                    "fishPieMix"
+                    "fishPieMix",
+                    "rosemary",
+                    "chives"
                 ],
                 "freezer": [
                     "pees",
@@ -125,6 +127,7 @@ class Ingredients:
                     "mint",
                     "rainbowPeppercorns",
                     "casterSugar",
+                    "whiteSugar",
                     "vinegar",
                     "sesameSeeds"
                 ],
@@ -140,6 +143,7 @@ class Ingredients:
             "tbsp": {
                 "dry": [
                     "balsamicVinegar",
+                    "leaPerins",
                     "cajun",
                     "sriracha",
                     "cidarVinegar",
@@ -163,7 +167,8 @@ class Ingredients:
                     "frenchDressing",
                     "cranberrySauce",
                     "sundriedTomatoPuree",
-                    "coleslaw"
+                    "coleslaw",
+                    "djonMustard"
                 ],
                 "freezer": []
             },
